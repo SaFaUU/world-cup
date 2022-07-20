@@ -1,8 +1,10 @@
+/* Body Customisation */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
+/* Top Section CSS */
 .top-section {
     display: flex;
     margin: 42px auto;
@@ -63,6 +65,7 @@ body {
     margin-left: 10px;
 }
 
+/* Mid Section CSS */
 .blog-section {
     display: flex;
     width: 1321px;
@@ -107,6 +110,7 @@ body {
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+
 }
 
 .blog {
@@ -150,6 +154,7 @@ body {
     margin-right: 10px;
 }
 
+/* Footer CSS */
 footer {
     background-color: #161616;
     height: 300px;
@@ -180,4 +185,115 @@ footer hr {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
+}
+
+/* For tablet View 834px 375px */
+
+@media only screen and (max-width: 834px) and (min-width:601px) {
+    .top-section {
+        width: 734px;
+        height: 398px;
+    }
+
+    .top-section-text {
+        padding: 39px 54px;
+    }
+
+    .top-section img {
+        width: 323px;
+        padding-top: 58px;
+        padding-right: 33px;
+    }
+
+    .top-section h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .top-section p {
+        font-size: 14px;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .menu {
+        display: flex;
+        width: 734px;
+        height: 130px;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: white;
+
+
+    }
+
+    .menu a {
+        width: 230px;
+        border: 1px solid #E8E8E8;
+        font-size: 20px;
+    }
+
+    .blog-section {
+        flex-direction: column;
+        width: 734px;
+    }
+
+    .footer-link {
+        width: 626px;
+        height: 100px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-link a {
+        margin-right: 27px;
+    }
+
+}
+
+/* 375px for mobile view  */
+@media only screen and (max-width: 600px) {
+    .top-section {
+        display: flex;
+        flex-direction: column;
+        width: 334px;
+        height: 472px;
+    }
+
+    .top-section div {
+        width: 100%;
+    }
+
+    .top-section-text {
+        width: 258px;
+        padding: 21px 38px;
+        text-align: center;
+    }
+
+    .top-section h1 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .top-section p {
+        font-size: 14px;
+    }
+
+    .top-section-image {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .top-section img {
+
+        width: 233px;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
 }

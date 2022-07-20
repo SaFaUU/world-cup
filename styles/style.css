@@ -60,6 +60,9 @@ body {
 
 }
 
+.top-section-text a:hover {
+    background-color: green;
+}
 
 
 .fa-angle-right {
@@ -154,6 +157,11 @@ body {
     margin-bottom: 30px;
     background-color: #FFFFFF;
     border-radius: 10px;
+}
+
+.menu a:hover {
+    background-color: green;
+    color: white;
 }
 
 .blogs {

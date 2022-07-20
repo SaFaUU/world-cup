@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .top-section {
@@ -66,6 +67,7 @@ body {
     display: flex;
     width: 1321px;
     margin: 0 auto;
+    margin-bottom: 106px;
 
 }
 
@@ -146,4 +148,36 @@ body {
 
 .blog-icon {
     margin-right: 10px;
+}
+
+footer {
+    background-color: #161616;
+    height: 300px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 130px;
+    padding-bottom: 50px;
+}
+
+footer hr {
+    height: 2px;
+    background-color: #212121;
+    border: none;
+}
+
+.footer-link {
+    width: 898px;
+    display: flex;
+    margin: 50px auto 130px auto;
+    justify-content: space-between;
+
+}
+
+.footer-link a {
+    color: #B9B9B9;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
 }
